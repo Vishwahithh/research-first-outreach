@@ -1,0 +1,29 @@
+{
+  "run": "first-run",
+  "sender": {
+    "name": "Alex",
+    "company": "Example Advisory",
+    "offer": "a short written outline of how we would approach pricing for their company, free and with no obligation",
+    "claims": [
+      "I work on pricing and packaging with B2B software companies",
+      "I help companies price new products and tiers"
+    ]
+  },
+  "fit": "owner-led and mid-size companies, roughly 10 to 250 staff; anything far larger is 'out' and gets no email",
+  "framework": "written_outline",
+  "proof": [
+    {
+      "id": "example_case",
+      "line": "REPLACE with one real, client-approved result, e.g. a 16-person software firm moved from one price to three tiers and lifted conversion 17%",
+      "solves": "the problem this case solved, e.g. one flat price, no tiers",
+      "facts": ["17%"]
+    }
+  ],
+  "extra_banned_phrases": [],
+  "model": {
+    "name": "claude-opus-5-5",
+    "effort": "medium",
+    "price_per_million": {"input": 4.0, "output": 20.0},
+    "budget_usd": 5.0
+  }
+}

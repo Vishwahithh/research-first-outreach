@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+config.json
+leads.csv
+runs/
+notes/*
+!notes/README.md
+__pycache__/
+*.pyc

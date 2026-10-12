@@ -1,0 +1,2 @@
+anthropic>=0.80        # only for write.py API mode
+crawl4ai>=0.6          # optional: better free website reading; plain HTTP is used if missing
